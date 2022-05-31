@@ -18,7 +18,7 @@ function App() {
             backgroundSize: 'cover'
           }}
         ></ParallaxLayer>
-        <ParallaxLayer offset={0} speed={1} factor={4}
+        <ParallaxLayer offset={2} speed={1} factor={4}
           style={{
             backgroundImage: `url(${land})`,
             backgroundSize: 'cover'
@@ -33,7 +33,7 @@ function App() {
           <h1>Hello World</h1>
         </ParallaxLayer>
         <ParallaxLayer offset={3.2} speed={2}>
-          <h1>React is trash!!</h1>
+          <h1 id='react'>React is trash!!</h1>
         </ParallaxLayer>
       </Parallax>    
     </div> 
